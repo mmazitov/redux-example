@@ -1,0 +1,48 @@
+.score-container {
+	border: 1px solid #555;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.score-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.score-display {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.score-display button {
+	font-size: 24px;
+	padding: 5px 15px;
+	margin: 0 10px;
+}
+
+.submit-btn {
+	padding: 10px 20px;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.reset-btn {
+	padding: 5px 10px;
+	background-color: #e74c3c;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.reset-btn:hover {
+	background-color: #c0392b;
+}

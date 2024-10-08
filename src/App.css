@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #222;
+}
+.app-container {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	background-color: #111;
+	color: white;
+	font-family: Arial, sans-serif;
+	gap: 15px;
+}
